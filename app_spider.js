@@ -26,7 +26,7 @@ app.get('/', function (req, res, next) {
             $('#topic_list .topic_title').each(function (idx, element) {
                 var $element = $(element);
                 items.push({
-                    id: idx+1,
+                    id: idx + 1,
                     title: $element.attr('title'),
                     href: $element.attr('href')
                 });
